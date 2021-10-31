@@ -1,6 +1,9 @@
-describe("Message", () => {
-    it("gives the name and height", () => {
-      expect(message).toInclude(name);
-      expect(message).toInclude(height);
-    });
-  });
+const name = "Joe";
+const height = 74;
+const message = `${name} is ${height} inches tall`;
+
+module.exports = { name, height, message };
+
+const message = `${name} is ${height} inches tall`;
+
+console.log(message);
